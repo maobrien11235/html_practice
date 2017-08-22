@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: yellow;
 }
 
 header {
@@ -9,5 +9,21 @@ header {
 
 section {
     color: green;
+    width: 75%;
+    float: left;
+}
+
+p {
+    color: black;
+}
+
+aside {
+    color: teal;
+    font-family: "helvetica neue", Arial, Helvetica, sans-serif;
+    width: 24%;
+}
+
+.pop {
+    background-color: tomato;
 }
 
