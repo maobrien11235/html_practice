@@ -1,5 +1,6 @@
 body {
     background-color: yellow;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 header {
@@ -7,20 +8,43 @@ header {
     color: white;
 }
 
+h2 {
+    display: inline;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+}
 section {
     color: green;
     width: 75%;
     float: left;
+    border-width: 3px;
+    border-style: solid;
+    border-color: burlywood;
 }
 
 p {
     color: black;
+    display: inline;
 }
+
+ul {
+    margin: 0;
+}
+
+
 
 aside {
     color: teal;
     font-family: "helvetica neue", Arial, Helvetica, sans-serif;
-    width: 24%;
+    width: 23%;
+    float: right;
+    border-width: 3px;
+    border-style: groove;
+    border-color: springgreen;
 }
 
 .pop {
