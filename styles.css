@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: wheat;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -28,7 +28,6 @@ section {
 
 p {
     color: black;
-    display: inline;
 }
 
 ul {
@@ -40,11 +39,12 @@ ul {
 aside {
     color: teal;
     font-family: "helvetica neue", Arial, Helvetica, sans-serif;
-    width: 23%;
-    float: right;
+    width: 22%;
+    float: left;
     border-width: 3px;
     border-style: groove;
     border-color: springgreen;
+    margin-left: 2px;
 }
 
 .pop {
