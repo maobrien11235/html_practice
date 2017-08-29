@@ -13,21 +13,24 @@ h2 {
 }
 
 footer{
-    position: absolute;
+
     bottom: 0;
     width: 100%;    
 }
 section {
-    color: green;
+    color: red;
     width: 50%;
     float: left;
     border-width: 3px;
     border-style: solid;
     border-color: burlywood;
+    background-color: #4B1388;
 }
 
 p {
-    color: black;
+    color: turquoise;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
 }
 
 ul {
@@ -37,7 +40,7 @@ ul {
 
 
 aside {
-    color: teal;
+    color: orange;
     font-family: "helvetica neue", Arial, Helvetica, sans-serif;
     width: 22%;
     float: left;
@@ -45,9 +48,23 @@ aside {
     border-style: groove;
     border-color: springgreen;
     margin-left: 2px;
+    background-color:#5DB860;
 }
 
-.pop {
-    background-color: tomato;
+.pop_greyhound {
+    background-image: url("C:/Users/m8hy6/Pictures/20170819-093342.jpeg");
+    height: 400px;
+    width: 389px;
 }
 
+.pop_other_greyhound {
+    background-image: url("C:/Users/m8hy6/Pictures/20170805_091137.jpg");
+    height: 498px;
+    width: 302px;
+}
+
+.bottom_text {
+    position: fixed;
+    bottom: 420px;
+    width: 95%;
+}
