@@ -1,0 +1,69 @@
+body {
+    background-color: wheat;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header {
+    background-color: lightslategray;
+    color: white;
+}
+
+h2 {
+    display: inline;
+}
+
+footer{
+
+    bottom: 0;
+    width: 100%;    
+}
+section {
+    color: red;
+    width: 50%;
+    float: left;
+    border-width: 3px;
+    border-style: solid;
+    border-color: burlywood;
+    background-color: #4B1388;
+}
+
+p {
+    color: turquoise;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+
+
+aside {
+    color: orange;
+    font-family: "helvetica neue", Arial, Helvetica, sans-serif;
+    width: 22%;
+    float: left;
+    border-width: 3px;
+    border-style: groove;
+    border-color: springgreen;
+    margin-left: 2px;
+    background-color:#5DB860;
+}
+
+.pop_greyhound {
+    background-image: url("20170819-093342.jpeg");
+    height: 400px;
+    width: 389px;
+}
+
+.pop_other_greyhound {
+    background-image: url("20170805_091137.jpg");
+    height: 498px;
+    width: 302px;
+}
+
+.bottom_text {
+    bottom: 420px;
+    width: 95%;
+}
