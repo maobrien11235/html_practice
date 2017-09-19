@@ -2,37 +2,37 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'bootstrap@3' ]
+1 verbose cli   'array_utils' ]
 2 info using npm@3.10.10
 3 info using node@v6.10.3
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
-7 silly fetchPackageMetaData bootstrap@3
-8 silly fetchNamedPackageData bootstrap
-9 silly mapToRegistry name bootstrap
+7 silly fetchPackageMetaData array_utils
+8 silly fetchNamedPackageData array_utils
+9 silly mapToRegistry name array_utils
 10 silly mapToRegistry using default registry
 11 silly mapToRegistry registry http://registry.npmjs.org/
 12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'bootstrap',
+12 silly mapToRegistry   raw: 'array_utils',
 12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'bootstrap',
-12 silly mapToRegistry   name: 'bootstrap',
+12 silly mapToRegistry   escapedName: 'array_utils',
+12 silly mapToRegistry   name: 'array_utils',
 12 silly mapToRegistry   rawSpec: '',
 12 silly mapToRegistry   spec: 'latest',
 12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri http://registry.npmjs.org/bootstrap
-14 verbose request uri http://registry.npmjs.org/bootstrap
+13 silly mapToRegistry uri http://registry.npmjs.org/array_utils
+14 verbose request uri http://registry.npmjs.org/array_utils
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 10:14:19 AM
-17 verbose request id 3277a2c177e15d41
-18 http request GET http://registry.npmjs.org/bootstrap
+16 info attempt registry request try #1 at 8:19:43 AM
+17 verbose request id 3c320946c8f1e613
+18 http request GET http://registry.npmjs.org/array_utils
 19 info retry will retry, error on last attempt: Error: Invalid protocol: null
-20 info attempt registry request try #2 at 10:14:29 AM
-21 http request GET http://registry.npmjs.org/bootstrap
+20 info attempt registry request try #2 at 8:19:53 AM
+21 http request GET http://registry.npmjs.org/array_utils
 22 info retry will retry, error on last attempt: Error: Invalid protocol: null
-23 info attempt registry request try #3 at 10:15:29 AM
-24 http request GET http://registry.npmjs.org/bootstrap
+23 info attempt registry request try #3 at 8:20:53 AM
+24 http request GET http://registry.npmjs.org/array_utils
 25 silly fetchPackageMetaData Error: Invalid protocol: null
 25 silly fetchPackageMetaData     at Request.init (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:460:31)
 25 silly fetchPackageMetaData     at new Request (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:129:8)
@@ -44,7 +44,7 @@
 25 silly fetchPackageMetaData     at ontimeout (timers.js:386:14)
 25 silly fetchPackageMetaData     at tryOnTimeout (timers.js:250:5)
 25 silly fetchPackageMetaData     at Timer.listOnTimeout (timers.js:214:5)
-25 silly fetchPackageMetaData  error for bootstrap@3 Error: Invalid protocol: null
+25 silly fetchPackageMetaData  error for array_utils Error: Invalid protocol: null
 25 silly fetchPackageMetaData     at Request.init (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:460:31)
 25 silly fetchPackageMetaData     at new Request (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:129:8)
 25 silly fetchPackageMetaData     at request (C:\Program Files\nodejs\node_modules\npm\node_modules\request\index.js:55:10)
@@ -72,7 +72,7 @@
 30 verbose stack     at Timer.listOnTimeout (timers.js:214:5)
 31 verbose cwd H:\html_practice
 32 error Windows_NT 6.1.7601
-33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bootstrap@3"
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "array_utils"
 34 error node v6.10.3
 35 error npm  v3.10.10
 36 error Invalid protocol: null
